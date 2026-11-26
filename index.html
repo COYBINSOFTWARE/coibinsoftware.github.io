@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COYBINSOFTWARE — Soluciones Digitales, Salud y Rendimiento</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #22c55e;
+      --accent-hover: #16a34a;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    header {
+      padding: 2rem 0 2.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(34, 197, 94, 0.15);
+      color: #4ade80;
+      border: 1px solid rgba(34, 197, 94, 0.35);
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 650px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      background: var(--accent);
+      color: #052e16;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 0.75rem 1.35rem;
+      border-radius: 0.5rem;
+      transition: background 0.2s ease;
+    }
+    .btn:hover { background: var(--accent-hover); color: #ffffff; }
+    section {
+      margin-top: 2.5rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+    }
+    h2 {
+      font-size: 1.35rem;
+      margin-bottom: 0.75rem;
+      color: #f1f5f9;
+    }
+    h3 {
+      font-size: 1.05rem;
+      margin-top: 1rem;
+      margin-bottom: 0.35rem;
+      color: #e2e8f0;
+    }
+    p, li { color: var(--muted); font-size: 0.96rem; }
+    ul { padding-left: 1.25rem; margin-top: 0.4rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .item {
+      background: rgba(15, 23, 42, 0.55);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 1rem;
+    }
+    footer {
+      margin-top: 3rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    a { color: #4ade80; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">COYBINSOFTWARE • Durango, México</span>
+      <h1>COYBINSOFTWARE</h1>
+      <p class="subtitle">
+        Plataforma de atención, automatización y servicios especializados en nutrición deportiva,
+        entrenamiento físico, soporte técnico y soluciones digitales.
+      </p>
+      <a class="btn" href="#privacidad">Ver Política de Privacidad y Términos</a>
+    </header>
+
+    <section id="servicios">
+      <h2>Servicios y Áreas</h2>
+      <div class="grid">
+        <div class="item">
+          <h3>Nutrición y Rendimiento</h3>
+          <p>Planes de alimentación, guía de suplementación, evaluación de composición corporal y entrenamiento físico personalizado.</p>
+        </div>
+        <div class="item">
+          <h3>Soporte y Tecnología</h3>
+          <p>Desarrollo de herramientas, automatización con Python, reparación electrónica, celulares y soporte técnico.</p>
+        </div>
+        <div class="item">
+          <h3>Asistencia por WhatsApp</h3>
+          <p>Canal automatizado para resolver dudas frecuentes, orientar sobre servicios y agilizar el contacto directo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacidad">
+      <h2>Política de Privacidad</h2>
+      <p><strong>Última actualización:</strong> 26 de noviembre de 2026</p>
+      <p style="margin-top: 0.6rem;">
+        En <strong>COYBINSOFTWARE</strong> respetamos tu privacidad. Al comunicarte con nosotros a través de WhatsApp
+        o nuestros canales digitales, procesamos únicamente la información que proporcionas de forma voluntaria
+        (como tu número de teléfono, nombre o el contenido de tus mensajes).
+      </p>
+      <ul>
+        <li>Usamos los datos exclusivamente para responder consultas, dar seguimiento a solicitudes y operar el servicio.</li>
+        <li>No vendemos, alquilamos ni compartimos tu información personal con terceros para fines publicitarios no autorizados.</li>
+        <li>Aplicamos medidas razonables para proteger la información frente a accesos no autorizados.</li>
+      </ul>
+    </section>
+
+    <section id="condiciones">
+      <h2>Condiciones del Servicio</h2>
+      <p>
+        Al utilizar los canales de contacto o el asistente automatizado de <strong>COYBINSOFTWARE</strong>, aceptas
+        hacer un uso responsable y lícito del servicio. La información proporcionada por asistentes automatizados
+        tiene fines informativos y de orientación general; las evaluaciones o planes personalizados requieren atención directa.
+      </p>
+    </section>
+
+    <section id="eliminacion-datos">
+      <h2>Eliminación de Datos de Usuario</h2>
+      <p>
+        Si deseas que eliminemos tus mensajes, historial de conversación o datos asociados a tu interacción con
+        nuestros servicios, envíanos un correo a <a href="mailto:coybinsoftware@gmail.com">coybinsoftware@gmail.com</a>
+        con el asunto <strong>"Eliminación de datos"</strong> indicando el número de teléfono o medio desde el que escribiste.
+        Procesaremos tu solicitud a la brevedad.
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2026 COYBINSOFTWARE. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+</body>
+</html>
